@@ -1,0 +1,66 @@
+doctype html
+html(lang='nl')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title Ptrw. | Inzicht in IT.
+        :script
+            if (window.location.protocol === 'http:') {
+                window.location.protocol = 'https:';
+            }
+        :style
+            $dark: #373B3F
+            $light: #E0EAF0
+            $middle: #A2B9C4
+            $accent: #7D8F9B
+
+            body
+                background-color: $dark
+                display: flex
+                height: 100vh
+                justify-content: center
+                margin: 0
+                @media (min-width: 75em)
+                    align-items: center
+                > section
+                    font-family: 'Courier New', Courier, monospace
+                    font-size: 1.1em
+                    padding: 2em
+                    text-align: justify
+                    @media (min-width: 75em)
+                        outline: 0.1em solid $accent
+                        width: 50vw
+                    > h1
+                        color: $middle
+                    > p
+                        color: $light
+                    > ul
+                        > li
+                            color: $light
+                            > a
+                                color: $accent
+                                &:hover
+                                    color: $middle
+    body
+        section
+            h1 Ptrw. | Inzicht in IT.
+            p.
+                Van kleins af aan heb ik een fascinatie gehad met computers.
+                Toen ik 11 was bouwde ik mijn eigen PC − van tweedehands en weggegooide onderdelen − zodat ik de dagelijkse tijdslimiet kon omzeilen die mijn ouders gesteld hadden.
+                Na nauwelijks een jaar was ik een bedreven programmeur en kende ik de meeste trucs die de machine te bieden heeft.
+            p.
+                Op een gegeven moment was ik zo goed in het analyseren van systemen, dat ik deze kon gebruiken op manieren waarop ze nooit bedoeld waren.
+                Dat is het moment waarop ik begon met het (ethisch) inbreken in computersystemen − dit is nog steeds een van mijn grootste hobby's.
+            p.
+                Mijn gevoel voor logica, talent voor analyse en het tempo waarop ik leer, helpen mij om indrukwekkende resultaten en inzichten te leveren.
+                Ik hou van mensen helpen, het delen van kennis en het oplossen van complexe vraagstukken.
+                Verveling is mijn grootste vijand dus aarzel niet om contact op te nemen.
+            ul
+                li
+                    a(href='mailto:hallo@ptrw.nl') hallo@ptrw.nl
+                li
+                    a(href='https://www.linkedin.com/in/sashaptrw') linkedin.com/in/sashaptrw
+            p.
+                Ik ben ervan overtuigd dat wederzijdse communicatie effectiever is dan iemand bombarderen met mogelijke verkooppunten.
+                Er zijn beter beveiligde kanalen beschikbaar indien gewenst.
