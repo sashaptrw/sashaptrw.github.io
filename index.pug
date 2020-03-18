@@ -7,6 +7,7 @@ html(lang='nl')
         title Ptrw. | Inzicht in IT.
         :script
             if (window.location.protocol === 'http:') {
+                window.stop();
                 window.location.protocol = 'https:';
             }
         :style
